@@ -1,0 +1,23 @@
+{
+  "name": "katasdojo",
+  "version": "1.0.0",
+  "description": "Dojo for katas practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon linkedLists.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerylander/katasDojo.git"
+  },
+  "author": "Joe Rylander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joerylander/katasDojo/issues"
+  },
+  "homepage": "https://github.com/joerylander/katasDojo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
