@@ -32,4 +32,4 @@ const mergeTwoLists = function (list1, list2) {
   curr.next = list1 || list2;
   return head.next;
 };
-// console.log(mergeTwoLists(list1, list2));
+console.log(mergeTwoLists(list1, list2));
