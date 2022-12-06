@@ -1,9 +1,5 @@
+import ListNode from "./listNode.js";
 // Singly Linked List
-
-function ListNode(val, next) {
-  this.val = val === undefined ? 0 : val;
-  this.next = next === undefined ? null : next;
-}
 
 const list1 = new ListNode(
   6,
@@ -32,4 +28,5 @@ const mergeTwoLists = function (list1, list2) {
   curr.next = list1 || list2;
   return head.next;
 };
-console.log(mergeTwoLists(list1, list2));
+
+export default mergeTwoLists;

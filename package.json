@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Dojo for katas practice",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon linkedLists.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
